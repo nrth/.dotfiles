@@ -1,0 +1,26 @@
+"*":
+  "exception-reporting":
+    userId: "foo"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "atom-dark-ui"
+      "atom-dark-syntax"
+    ]
+    ignoredNames: [
+      ".git"
+      ".svn"
+      ".hg"
+      ".DS_Store"
+      ".pyc"
+      "__pycache__"
+    ]
+  editor:
+    invisibles: {}
+    fontFamily: "Liberation Mono"
+    fontSize: 13
+    showIndentGuide: true
+    tabLength: 4
+    zoomFontWhenCtrlScrolling: false
+  react: {}

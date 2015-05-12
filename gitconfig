@@ -1,0 +1,5 @@
+[user]
+	name = Attila Földes
+	email = foeldes@ionauts.com
+[alias]
+	ls = log --pretty=format:"%C(yellow)%h%C(green)%d\\ %Creset%s%C(cyan)\\ [%cn]" --decorate
