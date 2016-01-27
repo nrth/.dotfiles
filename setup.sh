@@ -3,7 +3,7 @@
 
 dir=~/dotfiles
 backup=~/dotfiles_backup
-files="bashrc vimrc gitconfig atom/config.cson"
+files="bashrc vimrc gitconfig zshrc"
 
 run()
 {
