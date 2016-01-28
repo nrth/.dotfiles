@@ -1,8 +1,8 @@
 #!/bin/bash
 # little script to install dotfiles
 
-dir=~/dotfiles
-backup=~/dotfiles_backup
+dir=~/.dotfiles
+backup=~/.dotfiles_backup
 files="bashrc vimrc gitconfig zshrc"
 
 run()
