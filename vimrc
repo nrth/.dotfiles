@@ -6,6 +6,7 @@ Plug 'rust-lang/rust.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'pangloss/vim-javascript'
 Plug 'scrooloose/syntastic'
+Plug 'morhetz/gruvbox'
 
 call plug#end()
 
@@ -13,6 +14,9 @@ syntax on
 set number
 set t_Co=256
 set background=dark
+
+let g:gruvbox_contrast_dark='hard'
+colorscheme gruvbox
 
 set laststatus=2
 let g:airline_powerline_fonts = 1
