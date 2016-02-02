@@ -4,6 +4,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'Raimondi/delimitMate'
 Plug 'rust-lang/rust.vim'
 Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
 Plug 'pangloss/vim-javascript'
 Plug 'scrooloose/syntastic'
 Plug 'morhetz/gruvbox'
@@ -38,3 +39,6 @@ autocmd BufWinLeave *.* mkview
 autocmd BufWinEnter *.* silent loadview
 
 set noerrorbells
+set updatetime=250
+
+nnoremap <Space> za
