@@ -3,7 +3,7 @@
 
 dir=~/.dotfiles
 backup=~/.dotfiles_backup
-files="bashrc vimrc gitconfig zshrc"
+files="bashrc vimrc gitconfig zshrc psqlrc"
 
 run()
 {

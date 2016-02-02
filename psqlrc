@@ -1,0 +1,4 @@
+\pset null '[null]'
+\set COMP_KEYWORD_CASE upper
+\timing
+\x auto
