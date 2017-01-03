@@ -6,20 +6,15 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto --group-directories-first'
-alias la='ls -al'
 alias l='ls -l'
 alias vi='vim'
-
-alias xgz='tar xfvz'
-alias xbz='tar xfvj'
-
 alias grep='grep --color=always'
 
 PS1='[\u@\h \W]\$ '
 
-export EDITOR=vim
-export TERM="screen-256color"
+export PATH="$PATH":"~/.pub-cache/bin"
 
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/Devel
+export PROJECT_HOME=~/Devel
+export WORKON_HOME=~/.virtualenvs
 source /usr/bin/virtualenvwrapper.sh
+
